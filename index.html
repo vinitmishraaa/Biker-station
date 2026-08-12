@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Biker Station</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="station">
+  <video id="bg" class="background-video" muted playsinline loop preload="auto">
+    <source src="assets/biker-background.mp4" type="video/mp4">
+  </video>
+  <div class="shade"></div>
+
+  <header class="topbar">
+    <a href="https://instagram.com/vinitmishraaa" target="_blank" rel="noopener">@vinitmishraaa</a>
+    <div class="status"><span id="clock"></span><i></i><span><b id="active">1</b> active</span></div>
+  </header>
+
+  <section class="hero">
+    <h1>BIKER STATION</h1>
+    <p>Ride Free. Ride Safe. Always Wear Your Helmet.</p>
+    <div class="controls">
+      <button id="prev" aria-label="Previous">⏮</button>
+      <button id="play" class="play" aria-label="Play">▶</button>
+      <button id="next" aria-label="Next">⏭</button>
+    </div>
+    <div id="song">Biker Station Radio</div>
+  </section>
+
+  <footer>B&amp;D by Vinit Mishra</footer>
+  <div id="yt"></div>
+</main>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="script.js"></script>
+</body>
+</html>
