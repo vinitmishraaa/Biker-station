@@ -10,3 +10,13 @@
         text-align: center;
     }
 }
+.topbar {
+  position: relative;
+  z-index: 100;
+}
+
+.topbar a {
+  position: relative;
+  z-index: 101;
+  pointer-events: auto;
+}
